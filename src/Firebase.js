@@ -4,7 +4,7 @@ import firebase from "firebase";
 
 <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>;
 
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyARNLvCuo2GGfeYusw00UueFlkzzzm17ok",
   authDomain: "inspired-233da.firebaseapp.com",
   projectId: "inspired-233da",
@@ -16,3 +16,5 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
+
+export default firebase;
