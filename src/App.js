@@ -5,6 +5,13 @@ import firebase from "./Firebase";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
-const App = () => {};
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Main />
+    </>
+  );
+};
 
 export default App;
